@@ -18,3 +18,9 @@
 | **Portability** | Locked to the specific physical hardware it was compiled on. | Universally portable across any system with a PVM installed. |
 | **Error Checking** | Compile-Time (catches Type and Reference errors; fails to build if found). | Compile-Time (catches Syntax errors only) / Runtime (catches Type errors during execution). |
 | **Use Case** | Chosen for maximum machine performance and hardware control. | Chosen for rapid development and cross-platform flexibility. |
+
+## Test it!
+
+Folder **sum2numbers** contains a basic program to sum 2 integers, written in *Python* and *C*. You can play around it to see compiling errors on both:
+1. In the C program, change the variable or reference types and try to compile the `.c` code in your terminal using `clang` or `gcc`.
+2. In the Python program, change the syntax and try to compile the `.py` code using the command `python` or `python3` in your terminal.
